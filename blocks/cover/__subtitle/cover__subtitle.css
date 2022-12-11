@@ -23,6 +23,18 @@
   }
 }
 
+@media screen and (max-width: 616px) {
+  .cover__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .cover__subtitle {
+    font-size: 15px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     max-width: 228px;

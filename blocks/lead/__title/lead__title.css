@@ -10,6 +10,22 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 674px) {
+  .lead__title {
+    max-width: 650px;
+    font-size: 75px;
+    line-height: 79px;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .lead__title {
+    max-width: 650px;
+    font-size: 57px;
+    line-height: 61px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__title {
     max-width: 288px;

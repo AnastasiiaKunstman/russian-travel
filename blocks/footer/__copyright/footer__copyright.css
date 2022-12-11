@@ -5,17 +5,32 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  text-align: right;
-  color: #FFFFFF;
   text-align: center;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 616px) {
+  .footer__copyright {
+    width: max-content;
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .footer__copyright {
+    width: max-content;
+    font-size: 8px;
+    line-height: 10px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
-    max-width: 186px;
+    width: max-content;
     max-height: 14px;
+    font-size: 14px;
     line-height: 14px;
     margin-top: 48px;
-    text-align: start;
   }
 }

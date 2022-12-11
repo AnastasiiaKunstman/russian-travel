@@ -1,31 +1,22 @@
 .footer {
   max-width: 1184px;
+  min-width: 310px;
   max-height: 18px;
   margin: 0 auto;
   padding-bottom: 24px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-
-@media screen and (max-width: 1024px) {
-  .footer {
-    max-width: 928px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer {
-    max-width: 720px;
-  }
+  align-items: center;
 }
 
 @media screen and (max-width: 320px) {
   .footer {
-    max-width: 186px;
+    width: max-content;
     max-height: 310px;
     flex-direction: column;
     margin: 64px auto 64px 16px;
+    padding-bottom: 0;
+    align-items: flex-start;
   }
 }
