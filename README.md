@@ -1,9 +1,7 @@
 # Проект: Путешествие по России
-<sub>Чего мы там не видели?</sub>
+* [Ссылка проект](https://anastasiiakunstman.github.io/ruusian-travel/index.html)
 
 ![Путешествие по России](/image/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%D0%BF%D0%BE%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8.JPG)
-
-* [Ссылка проект](https://anastasiiakunstman.github.io/ruusian-travel/index.html)
 
 Это проект о путешествии по России.
 По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране.
