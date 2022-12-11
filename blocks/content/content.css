@@ -1,7 +1,23 @@
 .content {
   position: relative;
-  display: flex;
   display: block;
-  justify-content: space-between;
   margin-bottom: 77px;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    margin-bottom: 92px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    margin-bottom: 64px;
+  }
 }
