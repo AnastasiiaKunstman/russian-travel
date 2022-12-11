@@ -1,10 +1,9 @@
 .lead__subtitle {
   max-width: 640px;
-  max-height: 72px;
   margin: 32px auto 0;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: calc((100vw - 320px)/(1281 - 320)*(30 - 16) + 16px);
   line-height: 36px;
   text-align: center;
   color: #FFFFFF;
@@ -13,7 +12,6 @@
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
     max-width: 620px;
-    max-height: 72px;
     margin: 19px auto 0;
   }
 }
@@ -27,7 +25,6 @@
 @media screen and (max-width: 539px) {
   .lead__subtitle {
     max-width: 450px;
-    font-size: 25px;
     line-height: 30px;
   }
 }
@@ -35,7 +32,6 @@
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     max-width: 288px;
-    max-height: 40px;
     font-size: 16px;
     line-height: 20px;
     margin: 16px auto 0;

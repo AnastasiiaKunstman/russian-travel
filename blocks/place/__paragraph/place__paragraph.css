@@ -3,7 +3,7 @@
   height: max-content;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: calc(16px + (18 - 16) * (100vw - 320px) / (1281 - 320));
   line-height: 163%;
   color: #FFFFFF;
 }
@@ -21,8 +21,6 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     max-width: 352px;
-    font-size: 16px;
-    line-height: 163%;
   }
   .place__paragraph:first-child {
     margin-bottom: 25px;
@@ -32,8 +30,6 @@
 @media screen and (max-width: 320px) {
   .place__paragraph {
     max-width: 288px;
-    font-size: 16px;
-    line-height: 163%;
   }
   .place__paragraph:first-child {
     margin-bottom: 25px;
