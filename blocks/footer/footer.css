@@ -10,6 +10,12 @@
   align-items: center;
 }
 
+@media screen and (max-width: 440px) {
+  .footer {
+    max-width: 420px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer {
     width: max-content;
