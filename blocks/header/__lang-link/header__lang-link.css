@@ -1,17 +1,19 @@
 .header__lang-link {
-  max-width: 30px;
+  margin-left: 18px;
   font-style: normal;
   font-weight: 400;
   font-size: calc(18px + (24 - 18) * (100vw - 320px) / (1240 - 320));
   line-height: 28px;
   text-decoration: none;
   color: white;
-  margin-left: 18px;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {
   .header__lang-link {
-    max-width: 22px;
     font-size: 18px;
     line-height: 20px;  
   }

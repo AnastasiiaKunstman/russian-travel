@@ -1,6 +1,6 @@
 .place__paragraph {
-  margin: 0;
-  height: max-content;
+  margin-top: 0;
+  margin-bottom: 26px;
   font-style: normal;
   font-weight: 400;
   font-size: calc(16px + (18 - 16) * (100vw - 320px) / (1281 - 320));
@@ -8,8 +8,8 @@
   color: #FFFFFF;
 }
 
-.place__paragraph:first-child {
-  margin-bottom: 26px;
+.place__paragraph:last-child {
+  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,6 +20,8 @@
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
     max-width: 352px;
   }
   .place__paragraph:first-child {

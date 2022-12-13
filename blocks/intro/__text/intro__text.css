@@ -1,12 +1,11 @@
 .intro__text {
   max-width: 690px;
-  height: max-content;
   margin-top: 40px;
   margin-bottom: 33px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 26px;
   color: #FFFFFF;
 }
 
