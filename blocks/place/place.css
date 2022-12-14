@@ -15,7 +15,7 @@
   .place {
     max-width: 928px;
     gap: 48px 32px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
   }
 }
 
@@ -25,21 +25,28 @@
     margin-bottom: 73px;
     gap: 48px 28px;
   }
+  .place:first-child {
+    margin-bottom: 115px;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .place {
     max-width: 500px;
+    width: 100%;
     margin: 0 auto 50px;
-    grid-row-gap: 32px;
-    grid-column-gap: 0;
+    gap: 32px 0;
     grid-auto-flow: row;
-    justify-items: center;
+    justify-items: stretch;
+  }
+  .place:first-child {
+    gap: 32px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
     max-width: 320px;
+    justify-items: center;
   }
 }

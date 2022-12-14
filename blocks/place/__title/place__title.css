@@ -16,7 +16,6 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .place__title {
     max-width: 340px;
@@ -24,12 +23,6 @@
     line-height: 110%;
   }
 }
-
-@media screen and (max-width: 440px) {
-  .place__title {
-    margin-bottom: 0;
-  }
-} 
 
 @media screen and (max-width: 320px) {
   .place__title {

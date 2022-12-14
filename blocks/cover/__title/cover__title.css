@@ -11,22 +11,23 @@
   z-index: 1;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .cover__title {
     font-size: 72px;
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 319px) {
+@media screen and (max-width: 767px) and (min-width: 321px) {
   .cover__title {
-    max-width: 288px;
-    font-size: 32px;
+    font-size: calc(32px + (72 - 32) * (100vw - 320px) / (1281 - 320));
     line-height: 45px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
+    max-width: 288px;
+    font-size: 32px;
     line-height: 35px;
   }
 }
