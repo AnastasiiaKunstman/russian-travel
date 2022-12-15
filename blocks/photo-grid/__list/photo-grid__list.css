@@ -11,7 +11,7 @@
   justify-items: center;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .photo-grid__list {
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       grid-template-rows: repeat(auto-fit, minmax(225px, 1fr));
@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (max-width: 768px) and (min-width: 321px) {
+@media screen and (max-width: 768px) {
     .photo-grid__list {
       grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
       grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));

@@ -2,7 +2,7 @@
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
-  font-size: calc(10px + (16 - 10) * (100vw - 320px) / (1281 - 320));
+  font-size: 16px;
   line-height: 18px;
   text-align: center;
   color: #FFFFFF;
@@ -12,23 +12,8 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
-  .footer__link {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer__link {
-    font-size: calc(10px + (16 - 10) * (100vw - 320px) / (1281 - 320));
-  }
-}
-
-
 @media screen and (max-width: 500px) and (min-width: 320px) {
   .footer__link {
-    margin-right: 0;
-    margin-bottom: 32px;
     font-size: 24px;
     line-height: 24px;
   }

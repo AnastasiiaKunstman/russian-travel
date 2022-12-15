@@ -15,7 +15,6 @@
   .place {
     max-width: 928px;
     gap: 48px 32px;
-    margin-bottom: 80px;
   }
 }
 
@@ -26,7 +25,7 @@
     gap: 48px 28px;
   }
   .place:first-child {
-    margin-bottom: 115px;
+    grid-template-rows: 92px 1fr;
   }
 }
 
@@ -40,7 +39,7 @@
     justify-items: stretch;
   }
   .place:first-child {
-    gap: 32px 0;
+    grid-template-rows: none;
   }
 }
 

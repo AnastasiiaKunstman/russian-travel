@@ -3,17 +3,10 @@
   margin: 0 auto;
   font-style: normal;
   font-weight: 900;
-  font-size: calc((100vw - 320px)/(1281 - 320)*(96 - 40) + 40px);
+  font-size: 96px;
   line-height: 104%;
   text-align: center;
   color: #FFFFFF;
-}
-
-@media screen and (max-width: 1024px) {
-  .lead__title {
-    font-size: 96px;
-    line-height: 104%;
-  }
 }
 
 @media screen and (max-width: 678px) and (min-width: 321px) {
