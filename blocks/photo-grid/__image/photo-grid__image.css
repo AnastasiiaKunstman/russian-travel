@@ -3,7 +3,7 @@
     display: block;
 }
 
-@media screen and (max-width: 352px) {
+@media screen and (max-width: 368px) {
     .photo-grid__image {
         max-width: 288px;
     }

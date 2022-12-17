@@ -9,7 +9,7 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 678px) and (min-width: 320px) {
+@media screen and (max-width: 695px) and (min-width: 320px) {
   .lead__title {
     font-size: calc((100vw - 320px)/(1281 - 320)*(96 - 40) + 40px);
   }
